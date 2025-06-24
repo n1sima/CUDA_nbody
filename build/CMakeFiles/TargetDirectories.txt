@@ -1,0 +1,5 @@
+/home/stud/ge64vom/Desktop/CUDA1/build/CMakeFiles/edit_cache.dir
+/home/stud/ge64vom/Desktop/CUDA1/build/CMakeFiles/rebuild_cache.dir
+/home/stud/ge64vom/Desktop/CUDA1/build/Samples/CMakeFiles/NSM_nBODY.dir
+/home/stud/ge64vom/Desktop/CUDA1/build/Samples/CMakeFiles/edit_cache.dir
+/home/stud/ge64vom/Desktop/CUDA1/build/Samples/CMakeFiles/rebuild_cache.dir

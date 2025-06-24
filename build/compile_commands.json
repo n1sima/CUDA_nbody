@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/stud/ge64vom/Desktop/CUDA1/build",
+  "command": "/usr/bin/nvcc -forward-unknown-to-host-compiler -I/home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/../../../Common -I/home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/../Common -I/home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/../GL  -Wno-deprecated-gpu-targets -lineinfo --extended-lambda -Wno-deprecated-gpu-targets -lineinfo -g -std=c++17 \"--generate-code=arch=compute_50,code=[compute_50,sm_50]\" \"--generate-code=arch=compute_52,code=[compute_52,sm_52]\" \"--generate-code=arch=compute_60,code=[compute_60,sm_60]\" \"--generate-code=arch=compute_61,code=[compute_61,sm_61]\" \"--generate-code=arch=compute_70,code=[compute_70,sm_70]\" \"--generate-code=arch=compute_72,code=[compute_72,sm_72]\" \"--generate-code=arch=compute_75,code=[compute_75,sm_75]\" \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" \"--generate-code=arch=compute_86,code=[compute_86,sm_86]\" \"--generate-code=arch=compute_87,code=[compute_87,sm_87]\" \"--generate-code=arch=compute_89,code=[compute_89,sm_89]\" \"--generate-code=arch=compute_90,code=[compute_90,sm_90]\" -Xcompiler=-fPIE --extended-lambda -x cu -rdc=true -c /home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/bodysystemcuda.cu -o Samples/CMakeFiles/NSM_nBODY.dir/bodysystemcuda.cu.o",
+  "file": "/home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/bodysystemcuda.cu",
+  "output": "Samples/CMakeFiles/NSM_nBODY.dir/bodysystemcuda.cu.o"
+},
+{
+  "directory": "/home/stud/ge64vom/Desktop/CUDA1/build",
+  "command": "/usr/bin/cuda-g++ -I/home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/../../../Common -I/home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/../Common -I/home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/../GL -g -std=gnu++17 -fPIE -o Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o -c /home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/render_particles.cpp",
+  "file": "/home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/render_particles.cpp",
+  "output": "Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o"
+},
+{
+  "directory": "/home/stud/ge64vom/Desktop/CUDA1/build",
+  "command": "/usr/bin/cuda-g++ -I/home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/../../../Common -I/home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/../Common -I/home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/../GL -g -std=gnu++17 -fPIE -o Samples/CMakeFiles/NSM_nBODY.dir/nbody.cpp.o -c /home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/nbody.cpp",
+  "file": "/home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/nbody.cpp",
+  "output": "Samples/CMakeFiles/NSM_nBODY.dir/nbody.cpp.o"
+}
+]
