@@ -390,7 +390,7 @@ private:
         camera_trans[0] = camera_trans_lag[0] = activeParams.m_x;
         camera_trans[1] = camera_trans_lag[1] = activeParams.m_y;
         camera_trans[2] = camera_trans_lag[2] = activeParams.m_z;
-        reset(numBodies, NBODY_CONFIG_SHELL);
+        reset(numBodies, NBODY_CONFIG_FM);
         sdkResetTimer(&demoTimer);
     }
 

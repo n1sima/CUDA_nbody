@@ -37,7 +37,7 @@
 
 
 
-enum NBodyConfig { NBODY_CONFIG_RANDOM, NBODY_CONFIG_SHELL, NBODY_CONFIG_EXPAND, NBODY_NUM_CONFIGS };
+enum NBodyConfig { NBODY_CONFIG_RANDOM, NBODY_CONFIG_SHELL, NBODY_CONFIG_EXPAND, NBODY_CONFIG_FM , NBODY_NUM_CONFIGS };
 
 enum BodyArray {
     BODYSYSTEM_POSITION,
@@ -255,6 +255,50 @@ void randomizeBodies(NBodyConfig config,
         int p = 0, v = 0;
 
         for (int i = 0; i < numBodies;) {
+            float3 point;
+
+            point.x = rand() / (float)RAND_MAX * 2 - 1;
+            point.y = rand() / (float)RAND_MAX * 2 - 1;
+            point.z = rand() / (float)RAND_MAX * 2 - 1;
+
+            float lenSqr = dot(point, point);
+
+            if (lenSqr > 1)
+                continue;
+
+            pos[p++] = point.x * scale;  // pos.x
+            pos[p++] = point.y * scale;  // pos.y
+            pos[p++] = point.z * scale;  // pos.z
+            pos[p++] = 1.0f;             // mass
+            vel[v++] = point.x * vscale; // pos.x
+            vel[v++] = point.y * vscale; // pos.x
+            vel[v++] = point.z * vscale; // pos.x
+
+            if (vec4vel)
+                vel[v++] = 1.0f; // inverse mass
+
+            i++;
+        }
+    } break;
+
+    case NBODY_CONFIG_FM: {
+        float scale = clusterScale * numBodies / (1024.f);
+
+        if (scale < 1.0f)
+            scale = clusterScale;
+
+        float vscale = scale * velocityScale;
+
+        pos[0] = 0.0f; // pos.x
+        pos[1] = 0.0f; // pos.y
+        pos[2] = 0.0f; // pos.z
+        pos[3] = 100.0f; // mass
+        vel[0] = 0.0f; // pos.x
+        vel[1] = 0.0f; // pos.y
+        vel[2] = 0.0f; // pos.z
+        int v = 3;
+        int p = 4;
+        for (int i = 1; i < numBodies;) {
             float3 point;
 
             point.x = rand() / (float)RAND_MAX * 2 - 1;
