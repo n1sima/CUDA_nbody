@@ -44,6 +44,7 @@ if(${OpenGL_FOUND})
 
         target_include_directories(NSM_nBODY PUBLIC
             
+            
             "${CMAKE_CURRENT_SOURCE_DIR}/../Common"
             "${CMAKE_CURRENT_SOURCE_DIR}/../GL"
             ${OPENGL_INCLUDE_DIR}

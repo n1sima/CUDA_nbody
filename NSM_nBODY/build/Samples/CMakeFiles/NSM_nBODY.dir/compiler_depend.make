@@ -413,6 +413,330 @@ Samples/CMakeFiles/NSM_nBODY.dir/bodysystemcuda.cu.o: /home/stud/ge64vom/Desktop
   /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h \
   /usr/lib/gcc/x86_64-linux-gnu/12/include/syslimits.h
 
+Samples/CMakeFiles/NSM_nBODY.dir/nbody.cpp.o: /home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/nbody.cpp \
+  /home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Common/exception.h \
+  /home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Common/helper_cuda.h \
+  /home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Common/helper_functions.h \
+  /home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Common/helper_gl.h \
+  /home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Common/helper_image.h \
+  /home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Common/helper_string.h \
+  /home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Common/helper_timer.h \
+  /home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Common/param.h \
+  /home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Common/paramgl.h \
+  /home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/bodysystem.h \
+  /home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/bodysystemcpu.h \
+  /home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/bodysystemcpu_impl.h \
+  /home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/bodysystemcuda.h \
+  /home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/bodysystemcuda_impl.h \
+  /home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/render_particles.h \
+  /home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/tipsy.h \
+  /usr/include/GL/freeglut.h \
+  /usr/include/GL/freeglut_ext.h \
+  /usr/include/GL/freeglut_std.h \
+  /usr/include/GL/freeglut_ucall.h \
+  /usr/include/GL/gl.h \
+  /usr/include/GL/glext.h \
+  /usr/include/GL/glu.h \
+  /usr/include/GL/glx.h \
+  /usr/include/GL/glxext.h \
+  /usr/include/KHR/khrplatform.h \
+  /usr/include/X11/X.h \
+  /usr/include/X11/Xfuncproto.h \
+  /usr/include/X11/Xlib.h \
+  /usr/include/X11/Xosdefs.h \
+  /usr/include/X11/Xutil.h \
+  /usr/include/X11/keysym.h \
+  /usr/include/X11/keysymdef.h \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/assert.h \
+  /usr/include/builtin_types.h \
+  /usr/include/c++/13/algorithm \
+  /usr/include/c++/13/backward/binders.h \
+  /usr/include/c++/13/bit \
+  /usr/include/c++/13/bits/algorithmfwd.h \
+  /usr/include/c++/13/bits/alloc_traits.h \
+  /usr/include/c++/13/bits/allocator.h \
+  /usr/include/c++/13/bits/basic_ios.h \
+  /usr/include/c++/13/bits/basic_ios.tcc \
+  /usr/include/c++/13/bits/basic_string.h \
+  /usr/include/c++/13/bits/basic_string.tcc \
+  /usr/include/c++/13/bits/char_traits.h \
+  /usr/include/c++/13/bits/charconv.h \
+  /usr/include/c++/13/bits/codecvt.h \
+  /usr/include/c++/13/bits/concept_check.h \
+  /usr/include/c++/13/bits/cpp_type_traits.h \
+  /usr/include/c++/13/bits/cxxabi_forced.h \
+  /usr/include/c++/13/bits/cxxabi_init_exception.h \
+  /usr/include/c++/13/bits/erase_if.h \
+  /usr/include/c++/13/bits/exception.h \
+  /usr/include/c++/13/bits/exception_defines.h \
+  /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/fstream.tcc \
+  /usr/include/c++/13/bits/functexcept.h \
+  /usr/include/c++/13/bits/functional_hash.h \
+  /usr/include/c++/13/bits/hash_bytes.h \
+  /usr/include/c++/13/bits/invoke.h \
+  /usr/include/c++/13/bits/ios_base.h \
+  /usr/include/c++/13/bits/istream.tcc \
+  /usr/include/c++/13/bits/locale_classes.h \
+  /usr/include/c++/13/bits/locale_classes.tcc \
+  /usr/include/c++/13/bits/locale_conv.h \
+  /usr/include/c++/13/bits/locale_facets.h \
+  /usr/include/c++/13/bits/locale_facets.tcc \
+  /usr/include/c++/13/bits/locale_facets_nonio.h \
+  /usr/include/c++/13/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/13/bits/localefwd.h \
+  /usr/include/c++/13/bits/memory_resource.h \
+  /usr/include/c++/13/bits/memoryfwd.h \
+  /usr/include/c++/13/bits/move.h \
+  /usr/include/c++/13/bits/nested_exception.h \
+  /usr/include/c++/13/bits/new_allocator.h \
+  /usr/include/c++/13/bits/node_handle.h \
+  /usr/include/c++/13/bits/ostream.tcc \
+  /usr/include/c++/13/bits/ostream_insert.h \
+  /usr/include/c++/13/bits/postypes.h \
+  /usr/include/c++/13/bits/predefined_ops.h \
+  /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/quoted_string.h \
+  /usr/include/c++/13/bits/range_access.h \
+  /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/requires_hosted.h \
+  /usr/include/c++/13/bits/specfun.h \
+  /usr/include/c++/13/bits/sstream.tcc \
+  /usr/include/c++/13/bits/std_abs.h \
+  /usr/include/c++/13/bits/stl_algo.h \
+  /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
+  /usr/include/c++/13/bits/stl_construct.h \
+  /usr/include/c++/13/bits/stl_function.h \
+  /usr/include/c++/13/bits/stl_heap.h \
+  /usr/include/c++/13/bits/stl_iterator.h \
+  /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/13/bits/stl_iterator_base_types.h \
+  /usr/include/c++/13/bits/stl_map.h \
+  /usr/include/c++/13/bits/stl_multimap.h \
+  /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_relops.h \
+  /usr/include/c++/13/bits/stl_tempbuf.h \
+  /usr/include/c++/13/bits/stl_tree.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
+  /usr/include/c++/13/bits/stream_iterator.h \
+  /usr/include/c++/13/bits/streambuf.tcc \
+  /usr/include/c++/13/bits/streambuf_iterator.h \
+  /usr/include/c++/13/bits/string_view.tcc \
+  /usr/include/c++/13/bits/stringfwd.h \
+  /usr/include/c++/13/bits/uniform_int_dist.h \
+  /usr/include/c++/13/bits/uses_allocator.h \
+  /usr/include/c++/13/bits/uses_allocator_args.h \
+  /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/cctype \
+  /usr/include/c++/13/cerrno \
+  /usr/include/c++/13/clocale \
+  /usr/include/c++/13/cmath \
+  /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/cstdio \
+  /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/ctime \
+  /usr/include/c++/13/cwchar \
+  /usr/include/c++/13/cwctype \
+  /usr/include/c++/13/debug/assertions.h \
+  /usr/include/c++/13/debug/debug.h \
+  /usr/include/c++/13/exception \
+  /usr/include/c++/13/ext/aligned_buffer.h \
+  /usr/include/c++/13/ext/alloc_traits.h \
+  /usr/include/c++/13/ext/atomicity.h \
+  /usr/include/c++/13/ext/numeric_traits.h \
+  /usr/include/c++/13/ext/string_conversions.h \
+  /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/fstream \
+  /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/iomanip \
+  /usr/include/c++/13/ios \
+  /usr/include/c++/13/iosfwd \
+  /usr/include/c++/13/iostream \
+  /usr/include/c++/13/istream \
+  /usr/include/c++/13/iterator \
+  /usr/include/c++/13/limits \
+  /usr/include/c++/13/locale \
+  /usr/include/c++/13/map \
+  /usr/include/c++/13/math.h \
+  /usr/include/c++/13/new \
+  /usr/include/c++/13/ostream \
+  /usr/include/c++/13/pstl/execution_defs.h \
+  /usr/include/c++/13/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/sstream \
+  /usr/include/c++/13/stdexcept \
+  /usr/include/c++/13/stdlib.h \
+  /usr/include/c++/13/streambuf \
+  /usr/include/c++/13/string \
+  /usr/include/c++/13/string_view \
+  /usr/include/c++/13/system_error \
+  /usr/include/c++/13/tr1/bessel_function.tcc \
+  /usr/include/c++/13/tr1/beta_function.tcc \
+  /usr/include/c++/13/tr1/ell_integral.tcc \
+  /usr/include/c++/13/tr1/exp_integral.tcc \
+  /usr/include/c++/13/tr1/gamma.tcc \
+  /usr/include/c++/13/tr1/hypergeometric.tcc \
+  /usr/include/c++/13/tr1/legendre_function.tcc \
+  /usr/include/c++/13/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/13/tr1/poly_hermite.tcc \
+  /usr/include/c++/13/tr1/poly_laguerre.tcc \
+  /usr/include/c++/13/tr1/riemann_zeta.tcc \
+  /usr/include/c++/13/tr1/special_function_util.h \
+  /usr/include/c++/13/tuple \
+  /usr/include/c++/13/type_traits \
+  /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/utility \
+  /usr/include/c++/13/vector \
+  /usr/include/channel_descriptor.h \
+  /usr/include/crt/host_config.h \
+  /usr/include/crt/host_defines.h \
+  /usr/include/ctype.h \
+  /usr/include/cuda_device_runtime_api.h \
+  /usr/include/cuda_gl_interop.h \
+  /usr/include/cuda_runtime.h \
+  /usr/include/cuda_runtime_api.h \
+  /usr/include/device_types.h \
+  /usr/include/driver_functions.h \
+  /usr/include/driver_types.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/inttypes.h \
+  /usr/include/libintl.h \
+  /usr/include/library_types.h \
+  /usr/include/limits.h \
+  /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
+  /usr/include/locale.h \
+  /usr/include/math.h \
+  /usr/include/memory.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/surface_types.h \
+  /usr/include/texture_types.h \
+  /usr/include/time.h \
+  /usr/include/vector_functions.h \
+  /usr/include/vector_functions.hpp \
+  /usr/include/vector_types.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/x86_64-linux-gnu/sys/time.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
+
 Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/render_particles.cpp \
   /home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Common/helper_cuda.h \
   /home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Common/helper_gl.h \
@@ -702,6 +1026,8 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
 
 
+/home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/render_particles.cpp:
+
 /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
@@ -709,6 +1035,8 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
 
@@ -718,15 +1046,47 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
-
 /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h:
+
+/usr/include/memory.h:
 
 /usr/include/inttypes.h:
 
 /usr/include/c++/13/utility:
 
 /usr/include/c++/13/tr1/riemann_zeta.tcc:
+
+/usr/include/c++/13/tr1/modified_bessel_func.tcc:
+
+/usr/include/c++/13/tr1/ell_integral.tcc:
+
+/usr/include/c++/13/tr1/beta_function.tcc:
+
+/usr/include/c++/13/string_view:
+
+/usr/include/c++/13/streambuf:
+
+/usr/include/c++/13/stdlib.h:
+
+/usr/include/c++/13/sstream:
+
+/usr/include/c++/13/pstl/pstl_config.h:
+
+/usr/include/c++/13/pstl/glue_algorithm_defs.h:
+
+/usr/include/c++/13/pstl/execution_defs.h:
+
+/usr/include/c++/13/ostream:
+
+/usr/include/c++/13/tr1/exp_integral.tcc:
+
+/usr/include/c++/13/math.h:
+
+/usr/include/c++/13/map:
+
+/usr/include/c++/13/limits:
+
+/usr/include/c++/13/iterator:
 
 /usr/include/locale.h:
 
@@ -760,13 +1120,9 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 
 /usr/include/c++/12/vector:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
 /usr/include/cuda/std/detail/libcxx/include/support/atomic/atomic_cuda_generated.h:
 
 /usr/include/c++/12/ext/string_conversions.h:
-
-/usr/include/c++/13/pstl/glue_algorithm_defs.h:
 
 /usr/include/cuda/std/detail/libcxx/include/ctime:
 
@@ -780,6 +1136,8 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 
 /usr/include/nv/detail/__target_macros:
 
+/home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Common/exception.h:
+
 /usr/include/cuda_fp16.hpp:
 
 /usr/include/cuda/std/cstdint:
@@ -790,8 +1148,6 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 
 /usr/include/cuda/std/detail/libcxx/include/support/atomic/atomic_base.h:
 
-/usr/include/cuda/std/detail/libcxx/include/__undef_macros:
-
 /usr/include/cuda/std/chrono:
 
 /usr/include/ctype.h:
@@ -801,6 +1157,10 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 /usr/include/c++/12/type_traits:
 
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/cuda/std/detail/libcxx/include/__undef_macros:
+
+/home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/bodysystemcpu_impl.h:
 
 /usr/include/crt/sm_80_rt.hpp:
 
@@ -856,9 +1216,17 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 
 /usr/include/cuda/std/detail/libcxx/include/cstddef:
 
+/home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Common/helper_image.h:
+
+/usr/include/c++/13/bits/locale_facets_nonio.h:
+
 /usr/include/cooperative_groups/details/info.h:
 
 /usr/include/cooperative_groups.h:
+
+/usr/include/c++/13/tr1/gamma.tcc:
+
+/home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Common/helper_cuda.h:
 
 /usr/include/c++/12/thread:
 
@@ -904,8 +1272,6 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 
 /usr/include/c++/12/tr1/ell_integral.tcc:
 
-/usr/include/c++/12/tr1/beta_function.tcc:
-
 /usr/include/c++/12/tr1/bessel_function.tcc:
 
 /usr/include/c++/12/cwchar:
@@ -932,6 +1298,10 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 
 /usr/include/c++/12/ostream:
 
+/usr/include/c++/13/string:
+
+/usr/include/features.h:
+
 /usr/include/c++/12/limits:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
@@ -949,6 +1319,8 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 /usr/include/c++/13/bits/locale_facets.tcc:
 
 /usr/include/c++/12/functional:
+
+/usr/include/libintl.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
@@ -1012,10 +1384,6 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 
 /usr/include/c++/12/bits/chrono.h:
 
-/home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Common/helper_cuda.h:
-
-/usr/include/c++/13/tr1/gamma.tcc:
-
 /usr/include/c++/12/bits/cxxabi_forced.h:
 
 /usr/include/c++/12/bits/stl_iterator_base_types.h:
@@ -1023,6 +1391,8 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 /usr/include/c++/12/bits/concept_check.h:
 
 /usr/include/cuda/std/detail/libcxx/include/__pragma_pop:
+
+/home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Common/paramgl.h:
 
 /usr/include/crt/sm_90_rt.h:
 
@@ -1037,6 +1407,10 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 /usr/include/alloca.h:
 
 /home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Common/helper_string.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
+
+/usr/include/c++/13/ext/aligned_buffer.h:
 
 /usr/include/c++/12/bits/atomic_lockfree_defines.h:
 
@@ -1090,6 +1464,10 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 
 /usr/include/c++/12/tuple:
 
+/usr/include/c++/13/system_error:
+
+/usr/include/c++/13/bits/ostream_insert.h:
+
 /usr/include/asm-generic/int-ll64.h:
 
 /usr/include/x86_64-linux-gnu/bits/confname.h:
@@ -1103,6 +1481,8 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 /usr/include/GL/glext.h:
 
 /usr/include/c++/12/array:
+
+/usr/include/x86_64-linux-gnu/sys/time.h:
 
 /usr/include/cuda/std/detail/libcxx/include/__pragma_push:
 
@@ -1125,6 +1505,10 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 /usr/include/GL/freeglut_ext.h:
 
 /usr/include/asm-generic/bitsperlong.h:
+
+/usr/include/c++/13/tr1/legendre_function.tcc:
+
+/usr/include/asm-generic/types.h:
 
 /usr/include/c++/12/ext/type_traits.h:
 
@@ -1174,6 +1558,10 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 
 /usr/include/cuda/std/detail/libcxx/include/cassert:
 
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/c++/13/bits/erase_if.h:
+
 /usr/include/c++/12/bits/erase_if.h:
 
 /usr/include/crt/sm_70_rt.h:
@@ -1192,6 +1580,8 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 
 /usr/include/stdc-predef.h:
 
+/usr/include/c++/13/bits/quoted_string.h:
+
 /usr/include/c++/12/bits/locale_facets.h:
 
 /usr/include/c++/12/string_view:
@@ -1200,23 +1590,21 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 
 /usr/include/c++/12/bits/ostream.tcc:
 
-/usr/include/c++/13/tr1/beta_function.tcc:
-
-/usr/include/c++/13/pstl/pstl_config.h:
-
 /usr/include/c++/12/bits/parse_numbers.h:
+
+/home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/bodysystemcpu.h:
 
 /usr/include/c++/12/bits/ostream_insert.h:
 
 /usr/include/c++/13/bits/codecvt.h:
+
+/usr/include/c++/13/bits/stl_tree.h:
 
 /usr/include/c++/12/bits/ptr_traits.h:
 
 /usr/include/c++/12/bits/uniform_int_dist.h:
 
 /usr/include/c++/12/bits/range_access.h:
-
-/usr/include/c++/12/cerrno:
 
 /usr/include/c++/12/cstddef:
 
@@ -1272,6 +1660,8 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
+/usr/include/c++/13/bits/node_handle.h:
+
 /usr/include/c++/12/bits/streambuf_iterator.h:
 
 /usr/include/c++/13/bits/stl_tempbuf.h:
@@ -1291,6 +1681,10 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 /usr/include/c++/12/bits/this_thread_sleep.h:
 
 /usr/include/c++/12/cassert:
+
+/usr/include/c++/12/cerrno:
+
+/home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Common/param.h:
 
 /usr/include/c++/13/tr1/bessel_function.tcc:
 
@@ -1317,8 +1711,6 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 /usr/include/c++/13/bits/stl_relops.h:
 
 /usr/include/c++/13/bits/memory_resource.h:
-
-/usr/include/c++/13/streambuf:
 
 /usr/include/c++/12/cstdlib:
 
@@ -1350,11 +1742,11 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
+/usr/include/c++/13/bits/stl_multimap.h:
+
 /usr/include/c++/12/iosfwd:
 
 /usr/include/semaphore.h:
-
-/usr/include/sm_20_atomic_functions.h:
 
 /usr/include/sm_32_atomic_functions.hpp:
 
@@ -1402,6 +1794,8 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 
 /usr/include/strings.h:
 
+/usr/include/c++/13/iomanip:
+
 /usr/include/surface_indirect_functions.h:
 
 /usr/include/c++/13/bits/specfun.h:
@@ -1412,13 +1806,9 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 
 /usr/include/surface_types.h:
 
-/usr/include/c++/13/pstl/execution_defs.h:
-
 /usr/include/texture_types.h:
 
 /usr/include/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
 /usr/include/unistd.h:
 
@@ -1427,6 +1817,10 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 /usr/include/vector_functions.h:
 
 /usr/include/vector_types.h:
+
+/usr/include/c++/12/tr1/beta_function.tcc:
+
+/home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Common/helper_timer.h:
 
 /usr/include/GL/glx.h:
 
@@ -1486,8 +1880,6 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
-/usr/include/c++/13/string_view:
-
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
 /usr/include/c++/13/tuple:
@@ -1501,6 +1893,8 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 /usr/include/x86_64-linux-gnu/c++/12/bits/cpu_defines.h:
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/error_constants.h:
+
+/home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/bodysystemcuda.h:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
@@ -1540,17 +1934,11 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
-/usr/include/features.h:
-
-/usr/include/c++/13/string:
-
 /usr/include/x86_64-linux-gnu/bits/stdint-least.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
@@ -1586,8 +1974,6 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/basic_file.h:
 
-/usr/include/c++/13/sstream:
-
 /usr/include/c++/13/type_traits:
 
 /usr/include/features-time64.h:
@@ -1620,7 +2006,9 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
-/usr/include/c++/13/limits:
+/usr/include/c++/13/tr1/hypergeometric.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
@@ -1652,6 +2040,8 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h:
 
+/home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/bodysystemcuda_impl.h:
+
 /usr/include/x86_64-linux-gnu/c++/12/bits/c++io.h:
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/c++locale.h:
@@ -1660,11 +2050,11 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/gthr.h:
 
-/usr/include/c++/13/stdlib.h:
-
 /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h:
 
 /usr/include/c++/13/bits/uses_allocator_args.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
@@ -1686,15 +2076,23 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 
 /usr/include/c++/13/bits/ios_base.h:
 
-/usr/include/c++/13/iterator:
-
 /usr/lib/gcc/x86_64-linux-gnu/12/include/syslimits.h:
 
 /usr/include/c++/13/bits/fstream.tcc:
 
-/home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/render_particles.cpp:
+/home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/nbody.cpp:
+
+/usr/include/math.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/c++/13/cstdio:
+
+/home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Common/helper_functions.h:
 
 /home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Common/helper_gl.h:
+
+/home/stud/ge64vom/Desktop/CUDA1/NSM_nBODY/Samples/tipsy.h:
 
 /usr/include/X11/X.h:
 
@@ -1744,6 +2142,10 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 
 /usr/include/c++/13/bits/istream.tcc:
 
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/c++/13/bits/locale_conv.h:
+
 /usr/include/c++/12/ext/atomicity.h:
 
 /usr/include/c++/13/bits/locale_classes.tcc:
@@ -1751,6 +2153,10 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 /usr/include/c++/12/bits/specfun.h:
 
 /usr/include/c++/13/bits/uniform_int_dist.h:
+
+/usr/include/sm_20_atomic_functions.h:
+
+/usr/include/c++/13/bits/locale_facets_nonio.tcc:
 
 /usr/include/c++/13/bits/memoryfwd.h:
 
@@ -1770,15 +2176,17 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 
 /usr/include/c++/13/bits/range_access.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/c++/13/tr1/hypergeometric.tcc:
-
 /usr/include/c++/13/bits/stl_algo.h:
 
 /usr/include/c++/13/bits/stl_algobase.h:
 
 /usr/include/c++/13/bits/stl_bvector.h:
+
+/usr/include/c++/13/locale:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+
+/usr/include/c++/13/bits/stl_map.h:
 
 /usr/include/linux/futex.h:
 
@@ -1798,17 +2206,13 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 
 /usr/include/c++/13/cstddef:
 
-/usr/include/math.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/c++/13/cstdio:
-
 /usr/include/c++/12/new:
 
 /usr/include/limits.h:
 
 /usr/include/c++/13/cstdlib:
+
+/usr/include/c++/13/ctime:
 
 /usr/include/c++/13/exception:
 
@@ -1821,21 +2225,3 @@ Samples/CMakeFiles/NSM_nBODY.dir/render_particles.cpp.o: /home/stud/ge64vom/Desk
 /usr/include/asm-generic/errno.h:
 
 /usr/include/c++/13/iostream:
-
-/usr/include/c++/13/ostream:
-
-/usr/include/c++/13/bits/ostream_insert.h:
-
-/usr/include/c++/13/system_error:
-
-/usr/include/c++/13/tr1/ell_integral.tcc:
-
-/usr/include/c++/13/math.h:
-
-/usr/include/c++/13/tr1/exp_integral.tcc:
-
-/usr/include/asm-generic/types.h:
-
-/usr/include/c++/13/tr1/legendre_function.tcc:
-
-/usr/include/c++/13/tr1/modified_bessel_func.tcc:

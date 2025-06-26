@@ -1,12 +1,12 @@
-#include <iostream>
-#include <fstream>
-#include <vector>
+#include <stdio.h>
 #include <cuda_runtime.h>
 #include <math.h>
 
-#define N 1024
+#define N 1024        // Number of bodies
 #define BLOCK_SIZE 256
 #define EPS2 1e-6f
+#define p BLOCK_SIZE  // Tile size (equal to block size)
+
 
 __device__ float3 bodyBodyInteraction(float4 bi, float4 bj, float3 ai) {
     float3 r;

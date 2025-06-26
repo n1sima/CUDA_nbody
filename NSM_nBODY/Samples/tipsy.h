@@ -3,6 +3,9 @@
 
 #include <string>
 
+#include <iostream>
+#include <fstream>
+
 using namespace std;
 
 #define MAXDIM 3
